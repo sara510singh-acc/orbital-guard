@@ -1,5 +1,18 @@
 # 🌌 AstroSafe — AI-Powered Space Traffic Management and Collision Avoidance System
 
+Note: This project was built by Ayush Tiwari and Sakshi Chilkoti as a finalist entry for the Thales GenTech India Hackathon 2025.
+
+
+Ayush Tiwari – Founder & Lead Developer
+Ayush drives the technical architecture of AstroSafe. As the primary developer, he bridges the gap between complex aerospace physics and scalable AI-driven software, ensuring the platform delivers high-fidelity orbital risk assessment.
+
+🔗 LinkedIn
+
+Sakshi Chilkoti – Co-Founder & Product Strategist
+Sakshi steers the strategic direction and ML integration for AstroSafe. Her focus is on synthesizing emerging deep-tech research into intuitive, user-centric visual experiences that solve real-world space congestion challenges.
+
+🔗 LinkedIn
+
 **AstroSafe** is a next-generation **Space Situational Awareness (SSA)** and **Space Traffic Management (STM)** platform designed to predict, visualize, and prevent satellite collisions using **AI-driven orbit analytics**, **real-time visualization**, and **autonomous decision support**.
 
 It integrates **deep learning–based trajectory modeling**, **orbital mechanics computation**, and **3D visualization** (inspired by [StuffIn.Space](https://github.com/ajmas/StuffInSpace)) to enhance **safety, efficiency, and automation** in low Earth orbit (LEO) operations.

@@ -1,4 +1,3 @@
-import { Github, Linkedin, Twitter } from "lucide-react";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -24,11 +23,6 @@ const Footer = () => {
     ],
   };
 
-  const socialLinks = [
-    { icon: Linkedin, href: "#", label: "LinkedIn" },
-    { icon: Twitter, href: "#", label: "Twitter" },
-    { icon: Github, href: "#", label: "GitHub" },
-  ];
 
   return (
     <footer className="bg-primary border-t border-border">
@@ -40,23 +34,11 @@ const Footer = () => {
               <div className="w-10 h-10 bg-gradient-orbital rounded-lg flex items-center justify-center shadow-glow">
                 <span className="text-xl font-bold">OG</span>
               </div>
-              <span className="text-xl font-bold text-foreground">AstroClean AI</span>
+              <span className="text-xl font-bold text-foreground">OrbitalGuard AI</span>
             </div>
             <p className="text-muted-foreground text-sm leading-relaxed">
               Advanced satellite tracking and AI-powered collision prediction for safer space operations.
             </p>
-            <div className="flex space-x-4">
-              {socialLinks.map((social, index) => (
-                <a
-                  key={index}
-                  href={social.href}
-                  aria-label={social.label}
-                  className="w-10 h-10 rounded-lg bg-muted hover:bg-secondary/20 flex items-center justify-center transition-all hover:shadow-glow"
-                >
-                  <social.icon className="w-5 h-5 text-foreground hover:text-secondary transition-colors" />
-                </a>
-              ))}
-            </div>
           </div>
 
           {/* Product Links */}
@@ -114,13 +96,8 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-border flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
           <p className="text-muted-foreground text-sm">
-            © {currentYear} AstroSafe – All Rights Reserved
+            © {currentYear} OrbitalGuard – All Rights Reserved
           </p>
-          <div className="flex items-center space-x-2">
-            <p className="text-muted-foreground text-sm">Powered by</p>
-            <div className="w-8 h-8 bg-gradient-orbital rounded opacity-60" />
-            <span className="text-muted-foreground text-sm">Thales</span>
-          </div>
         </div>
       </div>
     </footer>

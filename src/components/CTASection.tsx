@@ -14,7 +14,7 @@ const CTASection = () => {
       return;
     }
     toast.success(`Analyzing satellite ${satelliteId}...`, {
-      description: "AstroCleanAI is processing your request",
+      description: "OrbitalGuard is processing your request",
     });
     setSatelliteId("");
   };

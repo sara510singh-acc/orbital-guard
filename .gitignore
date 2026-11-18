@@ -29,3 +29,5 @@ supabase/.temp/
 supabase/.temp/
 
 supabase/.temp/
+
+.env

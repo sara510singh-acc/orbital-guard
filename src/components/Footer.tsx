@@ -39,6 +39,7 @@ const Footer = () => {
             <p className="text-muted-foreground text-sm leading-relaxed">
               Advanced satellite tracking and AI-powered collision prediction for safer space operations.
             </p>
+
           </div>
 
           {/* Product Links */}
